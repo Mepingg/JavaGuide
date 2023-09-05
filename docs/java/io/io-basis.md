@@ -443,7 +443,7 @@ try (BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream("o
 
 ## 字符缓冲流
 
-`BufferedReader` （字符缓冲输入流）和 `BufferedWriter`（字符缓冲输出流）类似于 `BufferedInputStream`（字节缓冲输入流）和`BufferedOutputStream`（字节缓冲输入流），内部都维护了一个字节数组作为缓冲区。不过，前者主要是用来操作字符信息。
+`BufferedReader` （字符缓冲输入流）和 `BufferedWriter`（字符缓冲输出流）类似于 `BufferedInputStream`（字节缓冲输入流）和`BufferedOutputStream`（字节缓冲输出流），内部都维护了一个字节数组作为缓冲区。不过，前者主要是用来操作字符信息。
 
 ## 打印流
 
